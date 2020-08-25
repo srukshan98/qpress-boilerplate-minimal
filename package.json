@@ -1,0 +1,23 @@
+{
+  "name": "qpress-ts-boilerplate-minimal",
+  "version": "0.0.1",
+  "description": "Minimal boilerplate for Quick Express Node.js typescript projects",
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon -e ts --exec ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "Sachith Rukshan",
+  "license": "MIT",
+  "dependencies": {
+    "@qpress/core": "^0.0.5"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.0.5",
+    "@types/node": "^8.0.53",
+    "nodemon": "^1.12.1",
+    "ts-node": "^3.3.0",
+    "tslint": "^5.20.1",
+    "typescript": "^2.6.1"
+  }
+}
